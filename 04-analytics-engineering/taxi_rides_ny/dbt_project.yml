@@ -39,7 +39,7 @@ models:
   taxi_rides_ny:
       # Applies to all files under models/.../
       staging:
-          materialized: view
+          materialized: table
       core:
           materialized: table
 vars:
